@@ -12,6 +12,12 @@ Esta carpeta contiene [Kotlin Notebooks](https://kotlinlang.org/docs/kotlin-note
 ### 💻 Ejercicios (`/src`)
 Aquí encontrarás ejercicios específicos de Kotlin para practicar los conceptos aprendidos en los notebooks.
 
+#### 📝 Ejercicios en Clase (`/src/ejerciciosEnClase`)
+Esta carpeta contiene los ejercicios que se desarrollan durante las sesiones de clase, permitiendo seguir paso a paso los conceptos explicados.
+
+#### 💯 Ejercicios Resueltos (`/src/ejerciciosResueltos`)
+Aquí encontrarás ejercicios completos con sus soluciones, que puedes utilizar como referencia para practicar y verificar tu comprensión de los temas.
+
 ## Contenido de KotlinBooks
 
 ### 📝 Variables.ipynb
@@ -42,6 +48,24 @@ Manejo completo de strings:
 - Dividir y unir strings
 - Búsqueda y reemplazo de texto
 - Comparación de strings
+
+### 🔀 Condicionales.ipynb
+Control de flujo con estructuras condicionales:
+- Sentencias `if-else` básicas
+- `if` como expresión para retornar valores
+- Estructura `when` (reemplazo mejorado de `switch`)
+- Uso de rangos en condicionales
+- Verificación de tipos con `is`
+- Condiciones múltiples y complejas
+
+### 🔄 Ciclos.ipynb
+Estructuras de repetición en Kotlin:
+- Ciclos `for` con rangos
+- Uso de `downTo` y `step`
+- Iteración sobre colecciones
+- Acceso a índices con `indices` y `withIndex()`
+- Ciclos `while` y `do-while`
+- Modificación de colecciones durante la iteración
 
 ## Cómo Probar el Código
 
