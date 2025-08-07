@@ -13,10 +13,13 @@ Esta carpeta contiene [Kotlin Notebooks](https://kotlinlang.org/docs/kotlin-note
 Aquí encontrarás ejercicios específicos de Kotlin para practicar los conceptos aprendidos en los notebooks.
 
 #### 📝 Ejercicios en Clase (`/src/ejerciciosEnClase`)
-Esta carpeta contiene los ejercicios que se desarrollan durante las sesiones de clase, permitiendo seguir paso a paso los conceptos explicados.
+Esta carpeta contiene los ejercicios que se desarrollan durante las sesiones de clase en tiempo real. Son ejemplos prácticos que se ven y resuelven durante la mera clase.
 
 #### 💯 Ejercicios Resueltos (`/src/ejerciciosResueltos`)
-Aquí encontrarás ejercicios completos con sus soluciones, que puedes utilizar como referencia para practicar y verificar tu comprensión de los temas.
+Aquí encontrarás ejercicios que se dejan como tarea y luego se resuelven en clase. Incluyen tanto el planteamiento como la solución completa para que puedas verificar tu comprensión.
+
+#### 🧪 Laboratorios Resueltos (`/src/laboratoriosResueltos`)
+Esta carpeta contiene la resolución de los 2 laboratorios que se han realizado durante el curso, con código completo y comentarios explicativos.
 
 ## Contenido de KotlinBooks
 
@@ -66,6 +69,48 @@ Estructuras de repetición en Kotlin:
 - Acceso a índices con `indices` y `withIndex()`
 - Ciclos `while` y `do-while`
 - Modificación de colecciones durante la iteración
+
+### 📋 Listas.ipynb
+Manejo de colecciones en Kotlin:
+- Creación de listas mutables e inmutables
+- Operaciones básicas (agregar, eliminar, buscar)
+- Funciones de orden superior (map, filter, reduce)
+- Iteración sobre listas
+- Conversión entre tipos de colecciones
+
+### 🔧 Lambdas.ipynb
+Programación funcional con lambdas:
+- Sintaxis de funciones lambda
+- Funciones de orden superior
+- Uso con colecciones (map, filter, forEach)
+- Variables capturadas (closures)
+- Funciones como parámetros y valores de retorno
+
+### 🏗️ Clases.ipynb
+Programación orientada a objetos en Kotlin:
+- Declaración de clases
+- Constructores primarios y secundarios
+- Propiedades y métodos
+- Visibilidad (public, private, protected)
+- Herencia y polimorfismo
+- Clases abstractas e interfaces
+
+### 📊 DataClasses.ipynb
+Clases especializadas para manejo de datos:
+- Declaración de data classes
+- Métodos generados automáticamente (equals, hashCode, toString)
+- Función copy() para crear copias modificadas
+- Destructuring declarations
+- Casos de uso y mejores prácticas
+
+### 🔧 OtrasClases.ipynb
+Tipos especiales de clases en Kotlin:
+- Enum classes
+- Sealed classes
+- Object declarations
+- Companion objects
+- Nested y inner classes
+- Casos de uso específicos para cada tipo
 
 ## Cómo Probar el Código
 
